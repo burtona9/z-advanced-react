@@ -6,6 +6,7 @@
     "lib": "lib"
   },
   "scripts": {
+    "dev": "nodemon --exec babel-node lib/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "A.Burton",
@@ -25,7 +26,14 @@
     "eslint-plugin-react": "^7.20.0"
   },
   "dependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/node": "^7.8.7",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/preset-env": "^7.9.6",
+    "@babel/preset-react": "^7.9.4",
+    "@babel/preset-stage-2": "^7.8.3",
     "ejs": "^3.1.2",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "nodemon": "^2.0.3"
   }
 }
