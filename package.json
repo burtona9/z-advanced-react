@@ -1,0 +1,31 @@
+{
+  "name": "z-advanced-react",
+  "version": "1.0.0",
+  "main": "lib/server.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "A.Burton",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/burtona9/z-advanced-react.git"
+  },
+  "bugs": {
+    "url": "https://github.com/burtona9/z-advanced-react/issues"
+  },
+  "homepage": "https://github.com/burtona9/z-advanced-react#readme",
+  "description": "",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.0.0",
+    "eslint-plugin-react": "^7.20.0"
+  },
+  "dependencies": {
+    "ejs": "^3.1.2",
+    "express": "^4.17.1"
+  }
+}
